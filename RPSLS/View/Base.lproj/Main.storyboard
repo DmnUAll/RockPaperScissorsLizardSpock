@@ -220,7 +220,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bGI-JS-N50">
-                                <rect key="frame" x="27.666666666666657" y="95.333333333333314" width="320" height="567.33333333333348"/>
+                                <rect key="frame" x="27.666666666666657" y="113" width="320" height="532"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IPb-7Y-NWX">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
@@ -249,12 +249,12 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NWi-XU-pnF">
-                                        <rect key="frame" x="0.0" y="404" width="320" height="163.33333333333337"/>
+                                        <rect key="frame" x="0.0" y="404" width="320" height="128"/>
                                         <string key="text">Rock crushes Scissors and Lizard
 Paper covers Rock and disproves Spock Scissors cut Paper and decapitate Lizzard
-Lizzard eats Paper and posons Spock
+Lizzard eats Paper and poisons Spock
 Spock vaporizes Rock and smashes Scissors</string>
-                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="17"/>
+                                        <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="16"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
