@@ -58,7 +58,7 @@ class GameViewController: UIViewController {
             secondsPassed = 0
             timer = Timer.scheduledTimer(timeInterval: 0.06, target:self, selector: #selector(updateTimer), userInfo:nil, repeats: true)
             
-            goButton.backgroundColor = .green
+            goButton.backgroundColor = #colorLiteral(red: 0, green: 0.4805992842, blue: 0.5544506907, alpha: 1)
             goButton.setTitle("Go!", for: .normal)
             
             infoLabel.text = "Let's see how tough you are!"
@@ -66,11 +66,10 @@ class GameViewController: UIViewController {
             
             timer.invalidate()
             
-            goButton.backgroundColor = .red
+            goButton.backgroundColor = #colorLiteral(red: 0.5347552896, green: 0.006902733352, blue: 0.001711655874, alpha: 1)
             goButton.setTitle("Replay!", for: .normal)
             
             gameBrain.aiSelection = GameBrain.gameSet.firstIndex(of: aiImage.image!)!
-            print(gameBrain.aiSelection, gameBrain.playerSelection)
             infoLabel.text = gameBrain.whoWon()
             scoreLabel.text = "\(gameBrain.playerScore) : \(gameBrain.aiScore)"
         }
