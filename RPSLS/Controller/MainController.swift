@@ -10,6 +10,10 @@ final class MainController: UIViewController {
         return view
     }()
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .darkContent
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         UIImageView.setAsBackground(withImage: "background", to: self)
