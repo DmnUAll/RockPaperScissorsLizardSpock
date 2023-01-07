@@ -8,3 +8,6 @@
 This project was the sixth app writen by myself. It helped me to understand an UIImageView, Timer and DispatchQueue methods a little further. The app have a transition to another screen (as a popup). 
 
 At some moment - the project was refactored to exclude a storyboard UI design. All UI is writen by code since then, but i saved my first project realisation into a separate branch, called ui_by_storyboard(before_refactoring).
+
+Disclaimer:
+The project was made for educational purposes only.
