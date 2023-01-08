@@ -6,8 +6,8 @@ final class MainPresenter {
     // MARK: - Properties and Initializers
     private weak var viewController: MainController?
     private var gameModel = GameModel()
-    var timer: Timer?
-    var userHaveMadeChoice = false
+    private var timer: Timer?
+    private var userHaveMadeChoice = false
 
     init(viewController: MainController? = nil) {
         self.viewController = viewController
